@@ -7,5 +7,7 @@ export default defineConfig({
   plugins: [react(),eslint()],
   define: {
     global: {},
+}, build: {
+  chunkSizeWarningLimit: 4000, 
 },
 })
