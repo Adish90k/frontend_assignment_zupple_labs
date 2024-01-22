@@ -8,6 +8,7 @@ export default defineConfig({
   define: {
     global: {},
 }, build: {
+  minify: false,
   chunkSizeWarningLimit: 4000, 
   terserOptions: {
     compress: {

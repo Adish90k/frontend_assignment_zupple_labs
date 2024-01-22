@@ -10,13 +10,13 @@
    color: rgba(255, 255, 255, 0.873);
 }
 .upperforminputs {
-    width:calc(50% - 20px);
+    width:calc(50%-20px);
     display: flex;
     flex-direction: column;
 
 }
 .belowforminputs{
-    width:calc(50% - 20px);
+    width:calc(50%-20px);
     display: flex;
 }
 .adjacentinputcontainer{
@@ -29,7 +29,7 @@
     flex-direction: column;
 }
 .submitformbtn{
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 15px 130px;
     border-radius: 5px;
     background:linear-gradient(90deg,#ff78d7,#ff275dc5);
@@ -44,9 +44,14 @@
 .error{
     color: red;
     font-size: 18px;
-    margin-top: 4px;
+    margin-top: 60px;
 }
-
+.uploadstatus{
+    color: yellow;
+    margin-top: 60px;
+    font-size: 18px;
+ 
+}
 
 @media only screen and (max-width: 600px){
     .upperforminputs{
@@ -77,5 +82,8 @@
         margin-top: 10px;
       font-size: 0.9em;
     }
-
+    .uploadstatus{
+        margin-top: 6px;
+      font-size: 0.9em;
+    }
 }
