@@ -1,0 +1,117 @@
+.maincontainer{
+    width: 90%;
+}
+.transactionheading{
+    background-color: rgb(36,39,62);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.subcontainer{
+    background-color: rgb(36,39,62);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 155px;
+    align-items: center;
+    position: relative;
+}
+
+.allvoutcontainer{
+    width: 50%;
+}
+.allvoutcontainer div{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.totalamount{
+    position: absolute;
+    right: 25px;
+    bottom: 1.2%;
+    background-color: rgba(0, 0, 255, 0.684);
+    padding: 7px;
+    margin: 5px;
+}
+.voutcontainer{
+    margin-top: -40px;
+    display: flex;
+}
+.voutcontainer span{
+    display: flex;
+    align-items: center;
+}
+.feespan{
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+
+@media only screen and (max-width: 1200px){
+    
+    .transactionheading{
+        font-size: 0.8em;
+    }
+    .subcontainer{
+        font-size: 0.8em;
+        height: 150px;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .totalamount{
+        padding: 6px;
+    }
+    .allvoutcontainer{
+        width: 98%;
+        margin-top: -20px;
+    }
+    .allvoutcontainer div{
+        width: 100%;
+      padding: 5px;
+    }
+    .voutcontainer{
+  width: 98%;
+  justify-content: space-between;
+    }
+
+}
+@media only screen and (max-width: 600px){
+  
+     
+    .transactionheading{
+        font-size: 0.56em;
+    }
+    .voutcontainer{
+        margin-top: -20px;
+        width: 100%;
+    }
+    .subcontainer{
+        height: 105px;
+        font-size: 0.49em;
+    }
+     .allvoutcontainer{
+       width: 100%;
+  justify-content: space-evenly;
+    }
+    .totalamount{
+        right: 10px;
+    }
+
+  
+}
+
+@media only screen and (max-width: 375px){
+    .subcontainer{
+        height: 95px;
+        font-size: 0.4em;
+    }
+    .transactionheading{
+        font-size: 0.44em;
+    }
+}

@@ -1,0 +1,94 @@
+.transactionheading{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(36,39,62);
+}
+.maincontainer{
+    width: 90%;
+}
+.submaincontainer{
+    padding: 5px;
+    overflow-x:hidden ;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: rgb(36,39,62);
+}
+.newgeneratedcontainer{
+    padding: 5px;
+
+}
+.newgeneratedcontainer div{
+    margin-bottom: 5px;
+    display: flex;
+}
+.returncontainer{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+.returncontainer span{
+    margin: 5px;
+}
+.totalvalues{
+    display: flex;
+    margin-right: 15px;
+    padding: 5px;
+    flex-direction:column;
+}
+.totalvalues span{
+    margin: 5px;
+}
+
+.totalvalues span:last-child {
+     background-color: rgb(60, 60, 241);
+     padding: 10px;
+  }
+
+@media only screen and (max-width: 1200px){
+   
+    .submaincontainer{
+        font-size: 0.8em;
+    }
+    .transactionheading{
+        font-size: 0.8em;
+    }
+   .totalvalues span:last-child{
+     padding: 5px;
+   }
+} 
+
+@media only screen and (max-width: 600px){
+
+
+    .submaincontainer{
+        font-size: 0.6em;
+    }
+    .transactionheading{
+        font-size: 0.6em;
+    }
+    .returncontainer{
+      display: none;
+    }
+    .totalvalues span:last-child{
+        padding: 4px;
+      }
+
+
+}
+
+
+@media only screen and (max-width: 375px){
+    .submaincontainer{
+        font-size: 0.45em;
+    }
+    .transactionheading{
+        font-size: 0.45em;
+    }
+}

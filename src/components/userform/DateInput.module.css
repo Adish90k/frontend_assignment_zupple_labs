@@ -1,0 +1,50 @@
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.inputcontainer input{
+    width: 300px;
+    background-color: transparent;
+    padding: 5px;
+    height: 45px;
+    border-radius: 4px;
+    border: 3px solid rgba(10, 23, 61, 0.66);
+    color: white;
+    outline: none;
+}
+.inputcontainer input::placeholder{
+    color: rgba(255, 255, 255, 0.588);
+}
+.inputcontainer input:focus{
+    border: 2.5px solid rgb(117, 75, 133);
+}
+.inputcontainer label{
+    text-align: left;
+    padding: 5px;
+    width: 300px;
+}
+.error{
+    color: red;
+    font-size: 13px;
+    width: 290px;
+    margin-top: 4px;
+}
+
+@media only screen and (max-width: 600px){
+    .inputcontainer{
+        width: 100%;
+    }
+    .inputcontainer input{
+        width: 250px;
+    }
+    .inputcontainer label{
+        text-align: center;
+    }
+    .error{
+        width: 240px;
+    }
+}

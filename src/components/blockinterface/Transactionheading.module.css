@@ -1,0 +1,57 @@
+.headingcontainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagenationcontainer{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    background-color:rgb(29,31,49);
+}
+.leftarrowcontainer{
+    display: flex;
+}
+.leftarrowcontainer div{
+    margin: 5px;
+}
+.rightarrowcontainer{
+    display: flex;
+}
+.rightarrowcontainer div{
+    margin: 5px;
+}
+.pagenumbercontainer{
+    display: flex;
+}
+.pagenationcontainer span{
+    margin: 5px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1200px){
+    .headingcontainer{
+      font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .headingcontainer{
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .pagenationcontainer span{
+        margin: 0px;
+    }
+    
+.pagenationcontainer{
+    padding: 0px;
+
+}
+.headingcontainer {
+    font-size: 0.5em;
+}
+}
