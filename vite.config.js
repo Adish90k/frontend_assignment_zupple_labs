@@ -9,5 +9,12 @@ export default defineConfig({
     global: {},
 }, build: {
   chunkSizeWarningLimit: 4000, 
+  terserOptions: {
+    compress: {
+      drop_console: {
+        exclude: ['aws-sdk-modifications.js'],
+      },
+    },
+  },
 },
 })
