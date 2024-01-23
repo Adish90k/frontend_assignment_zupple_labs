@@ -34,7 +34,7 @@
 .inputcontainer input[type=file]::file-selector-button {
     border: none;
     background: transparent;
-    padding: 5px 18px;
+    padding: 5px 20px;
     color: #fff;
     cursor: pointer;
   }
@@ -45,4 +45,4 @@
     max-width: 120px;
     word-wrap: break-word;
 }
-  
+

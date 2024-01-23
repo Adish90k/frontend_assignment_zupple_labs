@@ -34,6 +34,10 @@ function TagsInput({ setInputs, value, tags,setTaginput }) {
   const handleInputChange = (event) => {
     setTaginput(event.target.value);
   };
+  
+  const handleInputBlur = () => {
+    addTag();
+  };
 
   return (
     <>
@@ -56,6 +60,7 @@ function TagsInput({ setInputs, value, tags,setTaginput }) {
             onChange={handleInputChange}
             onKeyDown={handleInputKeyPress}
             placeholder="Tags (comma-separated)"
+            onBlur={handleInputBlur}
           />
         </div>
       </div>
