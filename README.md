@@ -1,7 +1,7 @@
 # Live website link -> [http://frontend-assignment-website.s3-website.ap-south-1.amazonaws.com](http://frontend-assignment-website.s3-website.ap-south-1.amazonaws.com/)
 # Netlify Live link -> https://frontend-assignment-zupple.netlify.app/
 # To visit the second page submit the form or to go to /home route
-# To get the form data make a get request here - https://9wut3382v8.execute-api.ap-south-1.amazonaws.com/dev/data
+# To get the form data make a get request here - https://9wut3382v8.execute-api.ap-south-1.amazonaws.com/dev/data (i have added 2 test data for test purpose already)
 # Tools used
 Frontend - React.js <br>
 Backend - Aws lambda,Aws api gateway(to build a basic api to handle the form data) , Aws dynamodb and Aws s3 for simple storage
