@@ -119,7 +119,9 @@ function Form() {
       if (!inputs.authkey || inputs.tags.length === 0 || !inputs.title || !inputs.date || !inputs.description || !thumbnail || !sourceFile) {
         setFormError("Please fill in all the required fields.");
         return;
-      } 
+      } else{
+        setFormError("")
+      }
      await handleLinkgenerate();
 
       setuploadstatus("file uploaded sucessfully");
