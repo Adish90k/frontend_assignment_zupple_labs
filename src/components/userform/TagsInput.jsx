@@ -42,7 +42,7 @@ function TagsInput({ setInputs, value, tags,setTaginput }) {
         <div className={styles.pseudoinputdiv}>
           <div>
             {tags.map((tag, index) => (
-              <span key={index} className="tag">
+              <span key={index} className={styles.tag}>
                 {tag}
                 <button onClick={(event) => handleRemoveTag(index, event)}>
                   &times;
