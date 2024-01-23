@@ -1,8 +1,21 @@
-# React + Vite
+#Live website link -> [http://frontend-assignment-website.s3-website.ap-south-1.amazonaws.com](http://frontend-assignment-website.s3-website.ap-south-1.amazonaws.com/)
+#To get the form data make a get request here - https://9wut3382v8.execute-api.ap-south-1.amazonaws.com/dev/data
+# Tools used
+Frontend - React.js
+Backend - Aws lambda,Aws api gateway(to build a basic api to handle the form data) , Aws dynamodb and Aws s3 for simple storage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Assumptions made
+Hard coded the data - For the second page i have hard coded the data 
+For the date input the input must follow DD/MM/YYYY for ex 22/03/2003 , 22/3/2003 wont work since MM is required
 
-Currently, two official plugins are available:
+#How to run locally
+1) Clone this repository to your local machine
+2) cd frontend-assignment
+3) Install dependencies:- npm install
+4) To run the project in development mode, use the command: - npm run dev
+5) To build the project for production, use the following command - npm run build
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
