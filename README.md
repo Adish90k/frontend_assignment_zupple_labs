@@ -4,11 +4,11 @@
 Frontend - React.js
 Backend - Aws lambda,Aws api gateway(to build a basic api to handle the form data) , Aws dynamodb and Aws s3 for simple storage
 
-#Assumptions made
+# Assumptions made
 Hard coded the data - For the second page i have hard coded the data 
 For the date input the input must follow DD/MM/YYYY for ex 22/03/2003 , 22/3/2003 wont work since MM is required
 
-#How to run locally
+# How to run locally
 1) Clone this repository to your local machine
 2) cd frontend-assignment
 3) Install dependencies:- npm install
